@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render a Header 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__logo"
+  />
+  <div
+    className="header__text"
+  >
+    Sample calculator
+  </div>
+</header>
+`;

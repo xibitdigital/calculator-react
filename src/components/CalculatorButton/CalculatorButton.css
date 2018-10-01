@@ -1,0 +1,18 @@
+.calculator-button {
+    background-color: #aaa;
+    border: 1px solid #ccc;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 21px;
+    font-weight: 300;
+    height: 47px;
+    width: 57px;
+}
+
+.calculator-button:active {
+    background-color: #eee !important;
+}
+
+.calculator-button--wide {
+    flex-grow: 1;
+}

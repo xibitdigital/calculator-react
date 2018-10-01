@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should trigger a clear action 1`] = `
+Object {
+  "type": "calculator/CLEAR",
+}
+`;
+
+exports[`should trigger a percentage action 1`] = `
+Object {
+  "type": "calculator/PERCENTAGE",
+}
+`;
+
+exports[`should trigger a setOperator action 1`] = `
+Object {
+  "operator": [Function],
+  "type": "calculator/SET_OPERATOR",
+}
+`;
+
+exports[`should trigger a toggleNegative action 1`] = `
+Object {
+  "type": "calculator/TOGGLE_NEGATIVE",
+}
+`;
+
+exports[`should trigger an enterNumber action 1`] = `
+Object {
+  "number": 10,
+  "type": "calculator/ENTER_NUMBER",
+}
+`;
+
+exports[`should trigger an evaluate action 1`] = `
+Object {
+  "type": "calculator/EVALUATE",
+}
+`;

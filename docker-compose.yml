@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+    app:
+        build:
+            context: .
+        container_name: react-app
+        ports:
+            - '80:80'

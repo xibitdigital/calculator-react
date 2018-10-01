@@ -1,0 +1,9 @@
+#root {
+    display: flex;
+}
+
+.app {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
